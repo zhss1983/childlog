@@ -1,0 +1,8 @@
+#!/bin/sh
+#cd ~/chieldlog
+while (true)
+do
+clear
+python chieldlog.py
+sleep 60
+done
