@@ -1,3 +1,0 @@
-#!/bin/sh
-# cd ~/chieldlog/
-/usr/bin/flock -w 0 /var/tmp/chieldlog.lock ./chieldlog_run.sh
