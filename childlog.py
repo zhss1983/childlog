@@ -124,7 +124,7 @@ if __name__ == '__main__':
             ignore_list=ignore_list_windows
         ))
     elif sysname == 'Linux':
-        cmd = 'ps -la'
+        cmd = 'ps -el'
         key_map = (2, 3, 13)
         key_ignore = 2
         value_map = (0, 1, *range(4, 13))

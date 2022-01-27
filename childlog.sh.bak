@@ -1,3 +1,3 @@
 #!/bin/bash
-cd ~/childlog
+CD /home/sergey/childlog
 /usr/bin/flock -w 0 /var/tmp/childlog.lock ./childlog_run.sh
